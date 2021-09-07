@@ -134,6 +134,21 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/exp`][@stdlib/math/base/special/exp]: natural exponential function.
+-   [`@stdlib/math/base/special/expm1`][@stdlib/math/base/special/expm1]: compute exp(x) - 1.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -190,6 +205,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-expm1rel/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+
+[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1
+
+<!-- </related-links> -->
 
 </section>
 
