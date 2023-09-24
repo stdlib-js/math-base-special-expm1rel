@@ -69,7 +69,7 @@ f(x) = \frac{e^x - 1}{x}
 To use in Observable,
 
 ```javascript
-expm1rel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@umd/browser.js' )
+expm1rel = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -81,7 +81,7 @@ var expm1rel = require( 'path/to/vendor/umd/math-base-special-expm1rel/index.js'
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -141,7 +141,7 @@ v = expm1rel( NaN );
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
