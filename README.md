@@ -301,8 +301,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/math-base-special-expm1rel.svg
 [npm-url]: https://npmjs.org/package/@stdlib/math-base-special-expm1rel
 
-[test-image]: https://github.com/stdlib-js/math-base-special-expm1rel/actions/workflows/test.yml/badge.svg?branch=v0.1.0
-[test-url]: https://github.com/stdlib-js/math-base-special-expm1rel/actions/workflows/test.yml?query=branch:v0.1.0
+[test-image]: https://github.com/stdlib-js/math-base-special-expm1rel/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/math-base-special-expm1rel/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/math-base-special-expm1rel/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/math-base-special-expm1rel?branch=main
