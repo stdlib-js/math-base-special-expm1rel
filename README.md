@@ -60,14 +60,30 @@ f(x) = \frac{e^x - 1}{x}
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/math-base-special-expm1rel
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
+var expm1rel = require( '@stdlib/math-base-special-expm1rel' );
 ```
 
 #### expm1rel( x )
@@ -113,8 +129,8 @@ v = expm1rel( NaN );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
+var randu = require( '@stdlib/random-base-randu' );
+var expm1rel = require( '@stdlib/math-base-special-expm1rel' );
 
 var x;
 var y;
@@ -135,7 +151,93 @@ for ( i = 0; i < 100; i++ ) {
 
 <!-- C interface documentation. -->
 
+* * *
 
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/expm1rel.h"
+```
+
+#### stdlib_base_exmp1rel( x )
+
+Computes the relative error exponential.
+
+```c
+double out = stdlib_base_expm1rel( 0.0 );
+// returns 1.0
+
+out = stdlib_base_expm1rel( 1.0 );
+// returns ~1.718
+```
+
+The function accepts the following arguments:
+
+-   **x**: `[in] double` input value.
+
+```c
+double stdlib_base_expm1rel( const double x );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/expm1rel.h"
+#include <stdlib.h>
+#include <stdio.h>
+
+int main( void ) {
+    double x;
+    double v;
+    int i;
+    
+    for ( i = 0; i < 100; i++ ) {
+        x = ( ( (double)rand() / (double)RAND_MAX ) * 100.0 ) - 50.0;
+        v = stdlib_base_expm1rel( x );
+        printf( "(e^%lf - 1)/%lf = %lf\n", x, x, v );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section to include cited references. If references are included, add a horizontal rule *before* the section. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
@@ -169,7 +271,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -231,9 +333,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/deno
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
 
-[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1/tree/deno
+[@stdlib/math/base/special/expm1]: https://github.com/stdlib-js/math-base-special-expm1
 
 <!-- </related-links> -->
 
