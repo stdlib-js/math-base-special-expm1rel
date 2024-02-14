@@ -67,7 +67,7 @@ f(x) = \frac{e^x - 1}{x}
 ## Usage
 
 ```javascript
-import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
+import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.2.0-deno/mod.js';
 ```
 
 #### expm1rel( x )
@@ -114,7 +114,7 @@ v = expm1rel( NaN );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
+import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.2.0-deno/mod.js';
 
 var x;
 var y;
