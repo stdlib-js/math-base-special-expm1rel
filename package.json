@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-expm1rel",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Relative error exponential.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
     "@stdlib/constants-float64-pinf": "^0.2.1",
     "@stdlib/math-base-napi-unary": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
-    "@stdlib/math-base-special-expm1": "^0.2.1",
+    "@stdlib/math-base-special-expm1": "^0.2.2",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
   "devDependencies": {
