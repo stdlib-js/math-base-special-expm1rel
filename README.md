@@ -67,6 +67,11 @@ f(x) = \frac{e^x - 1}{x}
 ## Usage
 
 ```javascript
+import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-expm1rel/tags). For example,
+
+```javascript
 import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.2.2-deno/mod.js';
 ```
 
@@ -114,7 +119,7 @@ v = expm1rel( NaN );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@v0.2.2-deno/mod.js';
+import expm1rel from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-expm1rel@deno/mod.js';
 
 var x;
 var y;
