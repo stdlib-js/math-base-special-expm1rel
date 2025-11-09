@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-11-09)
 
 <section class="commits">
 
@@ -12,10 +12,11 @@
 
 <details>
 
+-   [`19907c4`](https://github.com/stdlib-js/stdlib/commit/19907c47acc768c31b3018318c37f9168ce33321) - **chore:** add structured package data for `math/base/special/expm1rel` [(#8463)](https://github.com/stdlib-js/stdlib/pull/8463) _(by Manvith M)_
 -   [`24e19f9`](https://github.com/stdlib-js/stdlib/commit/24e19f9d7fd8a648489afe4ba29940a4bfbeab6f) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`630ddb7`](https://github.com/stdlib-js/stdlib/commit/630ddb777824b5f6e501fda6dadf4ce41dccb964) - **test:** replace equal with strictEqual _(by Karan Anand)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
--   [`b834207`](https://github.com/stdlib-js/stdlib/commit/b834207f43accd6caa5d8e5cc8ad7ff039687f24) - **chore:** replace manual `for` loop in examples [(#6403)](https://github.com/stdlib-js/stdlib/pull/6403) _(by Harsh, stdlib-bot)_
+-   [`b834207`](https://github.com/stdlib-js/stdlib/commit/b834207f43accd6caa5d8e5cc8ad7ff039687f24) - **chore:** replace manual `for` loop in examples [(#6403)](https://github.com/stdlib-js/stdlib/pull/6403) _(by Harsh Yadav, stdlib-bot)_
 -   [`c13062e`](https://github.com/stdlib-js/stdlib/commit/c13062e5b90cbe28ec62f0b690211bd14b626cf3) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`2ea848b`](https://github.com/stdlib-js/stdlib/commit/2ea848b62b686e1e9d861f7df25ece23a7d80798) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
@@ -30,10 +31,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
--   Harsh
+-   Harsh Yadav
 -   Karan Anand
+-   Manvith M
 -   Philipp Burckhardt
 
 </section>
