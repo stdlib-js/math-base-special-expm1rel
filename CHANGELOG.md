@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-02)
+## Unreleased (2026-06-03)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
 
@@ -35,10 +36,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Philipp Burckhardt
 
 </section>
 
