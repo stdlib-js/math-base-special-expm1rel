@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-26)
+## Unreleased (2026-08-06)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`6369e3b`](https://github.com/stdlib-js/stdlib/commit/6369e3bed0470379ea58aad3261318adbb09cbc3) - **test:** migrate `math/base/special/expm1rel` to ULP-based assertions [(#13982)](https://github.com/stdlib-js/stdlib/pull/13982) _(by Athan Reines)_
 -   [`f8a0988`](https://github.com/stdlib-js/stdlib/commit/f8a0988ad1c6fa3c7f79384b1f4b0d4313c61715) - **docs:** fix stale identifier in `math/base/special/expm1rel` C comment [(#12444)](https://github.com/stdlib-js/stdlib/pull/12444) _(by Philipp Burckhardt)_
 -   [`0a659c4`](https://github.com/stdlib-js/stdlib/commit/0a659c475d1030c15e9bbb6647e14bedd5d76a31) - **fix:** improve numerical accuracy for large `x` values _(by Athan Reines)_
 -   [`c73c8b3`](https://github.com/stdlib-js/stdlib/commit/c73c8b39bd76529182ea2b3423c6f0feab434774) - **bench:** refactor to use string interpolation in `math/base/special` [(#11387)](https://github.com/stdlib-js/stdlib/pull/11387) _(by Karan Anand)_
